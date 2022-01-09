@@ -3,13 +3,68 @@
   <head>
     <meta charset="utf-8">
     <title>Figuras Geometricas</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
   </head>
   <body>
-    <h1>Figuras Geometricas</h1>
-    <div id="cuadrado">
-      
-    </div>
+    <header>
+      <h1>Figuras Geometricas</h1>
+      <p>Este es el primer taller del curso practico de javascript de Platzi</p>
+    </header>
+    <section id="sectionCuadrado">
+      <h2>Calculo del Perimetro y Area de un Cuadrado</h2>
+      <form action="">
+        <div>
+          <label for="InputCuadrado">Lado de Cuadrado (cm): </label>   
+          <input id="InputCuadrado" type="number">
+        </div>
+        <div id="idBotones">
+          <button type="button" onclick="calcularAreaCuadrado()">Area</button>
+          <button type="button" onclick="calcularPerimetroCuadrado()">Perimetro</button>
+        </div>
+        <div>
+          <label for="ResultadoArea">Area del Cuadrado: </label>
+          <div id="ResultadoArea"></div>
+        </div>
+        <div>
+          <label for="ResultadoPerimetro">Perímetro del Cuadrado: </label>
+          <div id="ResultadoPerimetro"></div>
+        </div>
+      </form>
+    </section>
 
+    <section id="sectionTriangulo">
+      <h2>Calculo del Perimetro y Area de un Triangulo</h2>
+      <form action="">
+        <div id="idLadosTriangulo">
+          <div>
+            <label for="Lado1">Lado 1 del Triangulo (cm): </label>   
+            <input id="Lado1" type="number">
+          </div>
+          <div>
+            <label for="Lado2">Lado 2 del Triangulo (cm): </label>   
+            <input id="Lado2" type="number">
+          </div>
+          <div>
+            <label for="base">Base del Triangulo (cm): </label>   
+            <input id="base" type="number">
+          </div>
+        </div>
+        <div id="idBotones">
+          <button type="button" onclick="calcularAreaTriangulo()">Area</button>
+          <button type="button" onclick="calcularPerimetroTriangulo()">Perimetro</button>
+        </div>
+        <div>
+          <label for="ResultadoAreaTriangulo">Area del Triangulo: </label>
+          <div id="ResultadoAreaTriangulo"></div>
+        </div>
+        <div>
+          <label for="ResultadoPerimetroTriangulo">Perímetro del Triangulo: </label>
+          <div id="ResultadoPerimetroTriangulo"></div>
+        </div>
+      </form>
+    </section>
+    
+    
   </body>
   <script src="./figuras.js"></script>
 </html>

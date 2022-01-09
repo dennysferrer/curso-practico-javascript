@@ -1,0 +1,29 @@
+#sectionCuadrado {
+    background: salmon;
+    width: 400px;
+    high: 300px;
+    border: 5px solid salmon;
+    border-radius:20px;
+}
+
+#sectionCuadrado h2 {
+    text-align: center;
+    margin-top: auto;
+}
+
+#sectionTriangulo {
+    background: grey;
+    width: 400px;
+    high: 300px;
+    border: 5px solid grey;
+    border-radius:20px;
+}
+
+#sectionTriangulo h2 {
+    text-align: center;
+    margin-top: auto;
+}
+
+#idLadosTriangulo{
+    text-align: center;
+}
