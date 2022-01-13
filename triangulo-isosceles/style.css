@@ -1,0 +1,38 @@
+
+header {
+    width: 50%;
+    high: 20%;
+    background: salmon;
+    border: 1px solid salmon;
+    text-align: center;
+    border-radius:20px;
+}
+
+header h1 {
+    color: blue;
+    
+}
+
+p {
+    font-weight: bold;
+}
+
+#section1 {
+    display:list-item;
+    width: 500px;
+    background: grey;
+    border-radius: 5px;
+}
+
+#section1 form {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#section1 div {
+    display: inline-block;
+}
+
+#section1 input {
+    float: right;
+}
